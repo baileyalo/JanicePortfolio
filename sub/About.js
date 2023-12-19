@@ -8,7 +8,7 @@ export default function About() {
     setIsOpen(true);
   }
 
-  const email = "baileyalwayne@gmail.com";
+  const email = "baileyjanice16@gmail.com";
   return (
     <section className="container">
       <div className="containerCont sectionCont sectionContAbout">
@@ -16,39 +16,29 @@ export default function About() {
         <header>
           <h2>About me</h2>
           <h3>
-            My name is Alwayne Bailey,
+            My name is Janice Bailey,
             <br />
             <span className="colorRed">
-              Front-End Developer | Blockchain Developer | Banker | Educator
+              Banker | Accountant | Customer Service | Marketing
             </span>
           </h3>
         </header>
-
         <p>
-          Meticulous Professional with 3+ years of experience designing, testing
-          and developing software solutions. In-depth understanding of web
-          technologies with focus on delivering innovative business solutions. With 7+
-          years experience in financial services providing exceptional customer
-          service and cash management and 2+ years experience in Technical
-          Support. Excels in fast-paced, high-energy and deadline-driven
-          environment with willingness to take on additional tasks.
+          A dedicated and result-oriented Banker possessing knowledge in
+          accounting, marketing, sales and customer service that I will utilize
+          to serve your organization and establish an enjoyable career for
+          myself.
         </p>
         <p>
           Email:
           <strong>
             <a href={`mailto:${email}`}> 📧{email}</a>
-          </strong>
-          ; projects that I have worked on{" "}
-          <strong>
-            <a target="_blank" href="https://github.com/baileyalo">
-              github
-            </a>
-          </strong>{" "}
-          and visit my{" "}
+          </strong>    
+          {" "}and visit my{" "}
           <strong>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/alwayne-bailey/"
+              href="https://www.linkedin.com/in/janice-bailey-bsc-3858a5291/"
             >
               linkedin
             </a>

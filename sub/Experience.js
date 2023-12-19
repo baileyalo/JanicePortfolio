@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendarAlt } from "@fortawesome/free-regular-svg-icons";
 
 export default function Experience() {
   return (
@@ -11,76 +11,116 @@ export default function Experience() {
       <div className="cardContainer">
         <div className="card">
           <div className="cardContent">
-          <div className="cardCont">
+            <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} />2022 - Present
+                  <FontAwesomeIcon icon={faCalendarAlt} />
+                  2019 - 2023
                 </span>
               </h5>
-              <h3>Software Engineer</h3>
-              <h4>Helios Creator Inc. Toronto, Canada</h4>
+              <h3>Bank Teller</h3>
+              <h4>
+                Sagicor Bank Jamaica (Branch Operations). Kingston, Jamaica
+              </h4>
               <ul>
                 <li>
                   <span className="colorBlue">- </span>
-                  <span>Maintain and develop application with Solana, React.js, React Native, MongoDB, AWS, Node.js, Python. </span>
+                  <span>
+                    Ensured that transactions were posted accurately,
+                    efficiently and in accordance with stipulated guidelines.{" "}
+                  </span>
                 </li>
                 <li>
-                  <span className="colorBlue">- </span>{' '}
-                  <span> Design the architecture of core components and redesign of existing components to build a maintainable code base.</span>
+                  <span className="colorBlue">- </span>{" "}
+                  <span>
+                    Administered training sessions for new employees on the
+                    teller line.
+                  </span>
                 </li>
                 <li>
-                  <span className="colorBlue">- </span>{' '}
-                  <span>Liaise with external venders with integration and implementation of different third party frameworks.</span>
+                  <span className="colorBlue">- </span>{" "}
+                  <span>
+                    Supervised new tellers when processing transactions or when
+                    the supervisors/managers are in meetings.
+                  </span>
                 </li>
                 <li>
-                  <span className="colorBlue">- </span>{' '}
-                  <span>Enhance code quality by refactoring legacy code base for better reuse-ability.</span>
+                  <span className="colorBlue">- </span>{" "}
+                  <span>
+                    Calculated cash inflows and outflows to balance drawer, add
+                    new customers to the system and handle complaints.
+                  </span>
                 </li>
               </ul>
             </div>
             <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} />2019 - 2022
+                  <FontAwesomeIcon icon={faCalendarAlt} />
+                  2018 - 2019
                 </span>
               </h5>
-              <h3>Technical Support Specialist</h3>
-              <h4>Rogers Communications Inc. Toronto, Canada</h4>
+              <h3>Insurance Intern</h3>
+              <h4>National Commercial Bank, Kingston jamaica</h4>
               <ul>
                 <li>
                   <span className="colorBlue">- </span>
-                  <span>Providing, verifying, and/or modifying network settings (TCP/IP)</span>
+                  <span>
+                    Ensured that most of the outstanding insurances were paid by
+                    contacting customers via telephone or email. My team
+                    increased the number of updated insurances to 90%.
+                  </span>
                 </li>
                 <li>
-                  <span className="colorBlue">- </span>{' '}
-                  <span>Maintain 90% monthly KPIs on business satisfaction</span>
+                  <span className="colorBlue">- </span>{" "}
+                  <span>
+                    Ensured that documents were filed correctly for the company
+                    to operate efficiently.
+                  </span>
                 </li>
                 <li>
-                  <span className="colorBlue">- </span>{' '}
-                  <span>Maintain 90% accuracy on ticket escalations across core service areas</span>
+                  <span className="colorBlue">- </span>{" "}
+                  <span>
+                    Collaborated with other team members to prepare cheque
+                    letters for customers.
+                  </span>
                 </li>
               </ul>
             </div>
             <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} />2010 -2016
+                  <FontAwesomeIcon icon={faCalendarAlt} />
+                  2016 -2016
                 </span>
               </h5>
-              <h3>Head Bank Teller</h3>
-              <h4>Sagicor Bank Jamaica(Formerly RBC Royal Bank Jamaica) Kingston, Jamaica</h4>
+              <h3>Assistant Customer Service Representative</h3>
+              <h4>Child Development Agency, Jamaica</h4>
               <ul>
                 <li>
                   <span className="colorBlue">- </span>
-                  <span>Maintain 95% in transactions processing</span>
+                  <span>
+                    Greeted customers at the front desk and provided relevant
+                    information.
+                  </span>
                 </li>
                 <li>
-                  <span className="colorBlue">- </span>{' '}
-                  <span>Maintain and manage branch cash liaising with Bank of Jamaica (BOJ) and other departments</span>
+                  <span className="colorBlue">- </span>{" "}
+                  <span>
+                    Directed incoming calls to officers and follow-up with
+                    customers.
+                  </span>
                 </li>
                 <li>
-                  <span className="colorBlue">- </span>{' '}
-                  <span>Cross-trained as Superuser for core system upgrade and exposed to the software lifecycle</span>
+                  <span className="colorBlue">- </span>{" "}
+                  <span>
+                    Collaborated with officers and visited homes of adopted
+                    children.
+                  </span>
+                </li>
+                <li>
+                  <span className="colorBlue">- </span>{" "}
+                  <span>Ensured that documents were filed correctly.</span>
                 </li>
               </ul>
             </div>

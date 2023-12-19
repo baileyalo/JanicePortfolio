@@ -4,4 +4,4 @@
 
 `npm run dev`
 
-[Live](https://alwaynebailey.netlify.app/)
+[Live](https://janicebailey.netlify.app/)

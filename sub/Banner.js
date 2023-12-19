@@ -1,12 +1,11 @@
 import styles from "../styles/banner.module.css";
 import Linkedin from "../svg/linkedin.js";
-import Github from "../svg/github.js";
 import { useContext } from "react";
 import { Contexto } from "../appContext";
 
 export default function Banner() {
-  const name = "Alwayne O. Bailey";
-  const email = "baileyalwayne@gmail.com";
+  const name = "Janice Bailey";
+  const email = "baileyjanice16@gmail.com";
   const { setIsOpen } = useContext(Contexto);
 
   function openModal() {
@@ -19,19 +18,19 @@ export default function Banner() {
         <section className={styles.bannerContLeft}>
           <h1>{name}</h1>
           <h2>
-            Software Engineer |
+            Banker |
             <span className={styles.brH2}>
               <br />
             </span>{" "}
-            Bachelor of Education |
+            Bachelor of Science |
             <span className={styles.brH2}>
               <br />
             </span>{" "}
             Graduate Certificate
           </h2>
           <h3>
-            [ REACT.JS / HTML / CSS / JS / TS / GRAPHQL / SOLIDITY / NODE.JS / REACT
-            NATIVE / MONGODB / MYSQL / AWS]
+            [ CUSTOMER SERVICE / SALES / ACCOUNTING / CASH MANAGEMENT / BANK
+            RECONCILATION / DATA ENTRY ]
           </h3>
           <h3>
             <a href={`mailto:${email}`}>{email}</a>
@@ -39,36 +38,22 @@ export default function Banner() {
           <br />
           <div className={`${styles.buttons}`}>
             <div>
-              {/* <button  className={`${styles.but}`}>
-                <a
-                // target="_blank"
-                // href="https://gateway.pinata.cloud/ipfs/QmaqbyaWSkibyX57qSHKPk1GU3m4q5oTY3VygCiHN5bjCJ"
-                >
-                  DOWNLOAD RESUME
-                </a>
-              </button> */}
               <button className={`${styles.svgBut}`}>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/alwayne-bailey/"
+                  href="https://www.linkedin.com/in/janice-bailey-bsc-3858a5291/"
                 >
                   <Linkedin />
                 </a>
               </button>
-              <button className={`${styles.svgBut}`}>
-                <a target="_blank" href="https://github.com/baileyalo">
-                  <Github />
-                </a>
-              </button>
             </div>
-
             <button onClick={openModal} className={`${styles.but}`}>
               CONTACT ME
             </button>
           </div>
         </section>
         <figure className={styles.bannerContRight}>
-          <img alt="Alwayne Bailey" src="/profile.jpg" />
+          <img alt="Janice Bailey" src="/Janice.jpg" />
         </figure>
       </div>
     </section>
