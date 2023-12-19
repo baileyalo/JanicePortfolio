@@ -36,7 +36,6 @@ export default function Home() {
         <meta property="og:type" content="profile" />
         <meta
           property="og:image"
-          // content="https://gateway.pinata.cloud/ipfs/QmVgNRoSLhT5nRdxtpkAEAaXMC5NNdJevENWxe74s6a13s"
         />
         <meta property="og:image:width" content="1580"/>
         <meta property="og:image:height" content="790"/>

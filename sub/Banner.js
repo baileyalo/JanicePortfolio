@@ -30,7 +30,7 @@ export default function Banner() {
           </h2>
           <h3>
             [ CUSTOMER SERVICE / SALES / ACCOUNTING / CASH MANAGEMENT / BANK
-            RECONCILATION / DATA ENTRY ]
+            RECONCILATION / DATA ENTRY  ]
           </h3>
           <h3>
             📧 <a href={`mailto:${email}`}>{email}</a>

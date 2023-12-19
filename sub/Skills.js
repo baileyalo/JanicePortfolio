@@ -8,7 +8,7 @@ export default function Skills() {
     { name: "Bank Reconcilation", progress: "90" },
     { name: "Transaction Processing", progress: "90" },
     { name: "Document Management", progress: "90" },
-    { name: "Telephone Operator", progress: "85" },
+    { name: "Call Center", progress: "85" },
   ];
   const overallCirSkills = [
     { name: "Customer Service", progress: "90" },
@@ -38,7 +38,7 @@ export default function Skills() {
         <div className="rowFlexRes breakMainTechOverall">
           <div className="cardContainer">
             <div className="card">
-              <h3>Operational Skills</h3>
+              <h3>Transferable Skills</h3>
               <ul>
                 {TechSkills.map((skill, pos) => (
                   <Skill key={pos} skill={skill} />

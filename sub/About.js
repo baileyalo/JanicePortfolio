@@ -19,7 +19,7 @@ export default function About() {
             My name is Janice Bailey,
             <br />
             <span className="colorRed">
-              Banker | Accountant | Customer Service | Marketing and Sales
+              Banker | Accounting | Customer Service | Marketing and Sales
             </span>
           </h3>
         </header>
