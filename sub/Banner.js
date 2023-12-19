@@ -35,7 +35,6 @@ export default function Banner() {
           <h3>
             📧 <a href={`mailto:${email}`}>{email}</a>
           </h3>
-          <br />
           <div className={`${styles.buttons}`}>
             <div>
               <button className={`${styles.svgBut}`}>

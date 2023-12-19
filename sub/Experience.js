@@ -15,7 +15,7 @@ export default function Experience() {
               <h5>
                 <span>
                   <FontAwesomeIcon icon={faCalendarAlt} />
-                  2019 - 2023
+                  {" "}2019 - 2023
                 </span>
               </h5>
               <h3>Bank Teller</h3>
@@ -57,7 +57,7 @@ export default function Experience() {
               <h5>
                 <span>
                   <FontAwesomeIcon icon={faCalendarAlt} />
-                  2018 - 2019
+                  {" "}2018 - 2019
                 </span>
               </h5>
               <h3>Insurance Intern</h3>
@@ -91,7 +91,7 @@ export default function Experience() {
               <h5>
                 <span>
                   <FontAwesomeIcon icon={faCalendarAlt} />
-                  2016 -2016
+                  {" "}2016 -2016
                 </span>
               </h5>
               <h3>Assistant Customer Service Representative</h3>
