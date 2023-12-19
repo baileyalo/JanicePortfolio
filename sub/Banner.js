@@ -33,7 +33,7 @@ export default function Banner() {
             RECONCILATION / DATA ENTRY ]
           </h3>
           <h3>
-            <a href={`mailto:${email}`}>{email}</a>
+            📧 <a href={`mailto:${email}`}>{email}</a>
           </h3>
           <br />
           <div className={`${styles.buttons}`}>

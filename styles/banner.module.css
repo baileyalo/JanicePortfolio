@@ -120,7 +120,7 @@
   
   @media (hover: hover) {
     .svgBut > a:hover .svgBut {
-      background-color: rgba(255, 249, 249, 0.2);
+      background-color: rgba(185, 119, 119, 0.2);
     }
     .svgBut > a:hover svg > path {
       fill: rgb(40, 143, 159);
