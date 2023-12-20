@@ -363,7 +363,7 @@ a {
     margin-left: auto;
   }
   .breakMainTechOverall .cardContainer:nth-child(2) {
-    margin-top: 2em;
+    margin-top: 1em;
   }
   /* prettier-ignore */
   .sectionContSkills .cardContainer:nth-child(2) ul:nth-child(2) li> div:last-child {
