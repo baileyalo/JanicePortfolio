@@ -27,7 +27,7 @@ h3 {
 
 html,
 body {
-  background-color: var(--dark-black);
+  background-color: rgb(114, 79, 114);
   color: var(--text);
 }
 

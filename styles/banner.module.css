@@ -61,7 +61,7 @@
   }
   
   .buttons {
-    font-size: 0.96rem;
+    font-size: 0.86rem;
     margin-top: 0.3em;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@
     box-sizing: border-box;
     justify-content: space;
     align-items: center;
-    margin-left: 1em;
+    margin-left: 2em;
   }
   .svgBut > a {
     display: flex;

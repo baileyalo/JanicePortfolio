@@ -34,22 +34,13 @@ export default function Banner() {
           </h2>
           <h3>
             [ CUSTOMER SERVICE / SALES / ACCOUNTING / CASH MANAGEMENT / BANK
-            RECONCILIATION / DATA ENTRY  ]
+            RECONCILIATION / DATA ENTRY ]
           </h3>
           <h3>
             📧 <a href={`mailto:${email}`}>{email}</a>
           </h3>
           <div className={`${styles.buttons}`}>
-            <div>
-              <button className={`${styles.svgBut}`}>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/janice-bailey-bsc-3858a5291/"
-                >
-                  <Linkedin />
-                </a>
-              </button>
-            </div>
+            <div></div>
             <button onClick={openModal} className={`${styles.but}`}>
               CONTACT ME
             </button>
@@ -58,6 +49,16 @@ export default function Banner() {
         <figure className={styles.bannerContRight}>
           <img alt="Janice Bailey" src="/Janice.jpg" />
         </figure>
+        <div className={`${styles.buttons}`}>
+        <button className={`${styles.svgBut}`}>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/janice-bailey-bsc-3858a5291/"
+          >
+            <Linkedin />
+          </a>
+        </button>
+        </div>
       </div>
     </section>
   );
