@@ -5,9 +5,10 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Skills() {
   const TechSkills = [
-    { name: "Bank Reconcilation", progress: "90" },
+    { name: "Banking Operations", progress: "90" },
     { name: "Transaction Processing", progress: "90" },
     { name: "Document Management", progress: "90" },
+    { name: "Accounting Principles", progress: "90" },
     { name: "Call Center", progress: "85" },
   ];
   const overallCirSkills = [
@@ -23,9 +24,9 @@ export default function Skills() {
     "Adaptability",
   ];
   const softwareSkills = [
-    { name: "MICROSOFT OFFICE", progress: "90" },
+    { name: "MICROSOFT OFFICE SUITE", progress: "90" },
     { name: "ADOBE", progress: "90" },
-    { name: "QUICKBOOKS", progress: "80" },
+    { name: "QUICKBOOKS", progress: "85" },
     { name: "T24 BANKING SYSTEM", progress: "90" },
     { name: "MICROSOFT TEAMS", progress: "90" },
   ];

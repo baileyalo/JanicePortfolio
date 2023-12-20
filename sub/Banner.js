@@ -22,6 +22,10 @@ export default function Banner() {
             <span className={styles.brH2}>
               <br />
             </span>{" "}
+            Accountant |
+            <span className={styles.brH2}>
+              <br />
+            </span>{" "}
             Bachelor of Science |
             <span className={styles.brH2}>
               <br />
